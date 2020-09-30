@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "century Gothic", sans-serif;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    padding: 0px 15px;
+    border-bottom: 1px solid#423940;
+}
+
+.adi {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.adi1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adi2 a {
+    display: block;
+    font-size: 22px;
+    position: relative;
+    padding: 8px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.adi3 ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.adi3 ul li {
+    margin-left: 25px;
+    float: left
+}
+
+.adi3 ul li a {
+    text-decoration: none;
+    padding: 12px 25px;
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header .adi3 ul li a::before {
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 0%;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    transition: all .5s ease;
+}
+
+header .adi3 ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+header .adi2 a::before {
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 0%;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    transition: all .5s ease;
+}
+
+header .adi2 a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+
+.section {
+    padding: 60px 0;
+    height: 100%;
+    position: relative;
+}
+
+
+.HELO {
+    height: 750px;
+    BACKGROUND: URL(cat.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: left;
+    color: white;
+    font-family: "times new roman", times, serif;
+}
+
+.kavya {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "times new roman", times, serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
